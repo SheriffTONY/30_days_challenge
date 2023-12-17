@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product_launching</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
+    
     <header>
         <img class="logo" src="images/logo.png" alt="">
         <nav class="navigation">
@@ -16,6 +18,8 @@
             <a class="links" href="">Calculator</a>
         </nav>
     </header>
+
+    
     <main>
         <div class="hero">
             <div>
@@ -29,70 +33,76 @@
             <center>
                 <h2>Latest Products</h2>
                 <p>Introducing our <strong>latest product,</strong>design to make your life easier and more efficient.
+                </p>
             </center>
-            </p>
             <div class="card-wrapper">
                 <div class="card">
                     <img src="images/images (10).jpg" class="card-img" alt="">
                     <div>
                         <center>
-                        <h5>Flacon</h5>
-                        <p>price: &#8358; 1,500</p>
-                    </center>
+                            <h6>Flacon</h6>
+                            <p>price: &#8358; 1,500</p>
+                        </center>
                     </div>
                 </div>
+
                 <div class="card">
                     <img src="images/images (2).jpg" class="card-img" alt="">
                     <div>
                         <center>
-                        <h5>Rose energy drink</h5>
-                        <p>price: &#8358; 2000</p>
-                    </center>
+                            <h6>Rose energy drink</h6>
+                            <p>price: &#8358; 2000</p>
+                        </center>
                     </div>
                 </div>
                 <div class="card">
                     <img src="images/images (8).jpg" class="card-img" alt="">
                     <div>
                         <center>
-                        <h5>Zealth Bodywash</h5>
-                        <p>price: &#8358; 2100</p>
-                    </center>
+                            <h6>Zealth Bodywash</h6>
+                            <p>price: &#8358; 2100</p>
+                        </center>
                     </div>
                 </div>
                 <div class="card">
                     <img src="images/images (9).jpg" class="card-img" alt="">
                     <div>
                         <center>
-                            <h5>Flasket</h5>
+                            <h6>Flasket</h6>
                             <p>price: &#8358; 3000</p>
                         </center>
                     </div>
                 </div>
             </div>
         </section>
-        <h4>Order now!</h4>
-        <form>
-            <label>size:</label>
-            <select name="size" id="size">
-                <option value="">small</option>
-                <option value="">medium</option>
-                <option value="">large</option>
-            </select>
-            <label>color</label>
-            <select>
-                <option value="">Big</option>
-            </select><br>
-            <label>Name:</label>
-            <input type="text"><br>
-            <label>Email:</label>
-            <input type="email">
-        </form>
-        <button>submit</button>
+        <section class="hike">
+            <div class="inner-hike">
+                <center>
+                <h4>ORDER NOW!</h4>
+            </center>
+                <form>
+                    <label>Size:</label>
+                    <select name="Size" id="Size">
+                        <option value="">Small</option>
+                        <option value="">Medium</option>
+                        <option value="">Large</option>
+                    </select>
+                    <label>Color</label>
+                    <select>
+                        <option value="">Big</option>
+                    </select><br>
+                    <input type="text" placeholder="Username"><br>
+                    <input type="email" placeholder="Email">
+                </form>
+                <button>submit</button>
+            </div>
+        </section>
     </main>
+    
     <footer>
-        <p>Landing Project Made With html</p>
-        <p>sheriff &copy; all right reserved</p>
+        <p class="foot">Landing Project Made With html & Css <br>Sheriff &copy; All Right</p><br>
     </footer>
+    <div class="back-to-top"></div>
 </body>
 
 </html>
